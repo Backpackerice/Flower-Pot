@@ -1,0 +1,40 @@
+QUESTION:
+How do can we make the program keep reading anything typed into the command prompt so that we can plant flowers while other flowers are growing?
+-> will the timer still go while we are typing in? 
+
+CONTINUE AT:
+plant flower method
+
+
+
+Flower Pot: text based flower growing simulator 
+
+Flower Pot Driver
+- main game loop
+- text prompts
+- handles responses from the user
+
+FlowerPot.java
+- handles functions of the actual flower pot
+	- view flowers
+	- index flowers into a database
+	- index flowers into the flower pot to grow
+	- print out available flowers
+	- plant flower function
+	- remove flower function
+	- view flowers growing within the pot
+- handles money
+	- money contained 
+	- price of flowers
+- hashtable for the actual pot that flowers are planted in
+	- colisions are handled by array lists
+	- when more than one flower, linear search the list to pick out the one that is done
+
+Flowers.java
+- individual flowers 
+- handles timers for each flower 
+
+Basic operations:
+1. prompt user to begin
+2. "upload" the database of flowers
+3. show list to user

@@ -1,0 +1,12 @@
+tulip 10
+pansy 10
+gerbera 10
+sunflower 15
+lavender 15
+marguerite 20
+carnation 30
+pinkrose 40
+bluerose 40
+redrose 40
+whiterose 40
+casablanca 60
